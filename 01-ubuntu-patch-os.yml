@@ -1,4 +1,4 @@
-- hosts: '{{inventory}}'
+- hosts: all
   become: yes
   tasks:
     - name: Update apt repo and cache on all Debian/Ubuntu boxes
